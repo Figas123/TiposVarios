@@ -10,6 +10,10 @@ namespace TiposVarios
     {
         static void Main(string[] args)
         {
+            short s = 1;
+            int i = 2;
+            Console.WriteLine("short: " + s + "\nint: " + i);
+            Console.ReadKey();
         }
     }
 }
