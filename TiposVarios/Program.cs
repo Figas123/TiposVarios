@@ -15,7 +15,9 @@ namespace TiposVarios
             char c1 = '\u003A';
             char c2 = '\u005E';
             char c3 = '\u0029';
-            Console.WriteLine("short: " + s + "\nint: " + i + "\nchars: " + c1 + c2 + c3);
+            float f = 1f;
+            double d = 2;
+            Console.WriteLine("short: " + s + "\nint: " + i + "\nchars: " + c1 + c2 + c3 + "\nfloat: " + f + "\ndouble: " + d);
             Console.ReadKey();
         }
     }
