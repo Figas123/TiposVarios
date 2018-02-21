@@ -17,7 +17,9 @@ namespace TiposVarios
             char c3 = '\u0029';
             float f = 1f;
             double d = 2;
-            Console.WriteLine("short: " + s + "\nint: " + i + "\nchars: " + c1 + c2 + c3 + "\nfloat: " + f + "\ndouble: " + d);
+            bool b1 = false;
+            bool b2 = true;
+            Console.WriteLine("short: " + s + "\nint: " + i + "\nchars: " + c1 + c2 + c3 + "\nfloat: " + f + "\ndouble: " + d + "\nsmart= " + b1 + "\ndumb= " + b2);
             Console.ReadKey();
         }
     }
