@@ -20,6 +20,7 @@ namespace TiposVarios
             bool b1 = false;
             bool b2 = true;
             Console.WriteLine("short: " + s + "\nint: " + i + "\nchars: " + c1 + c2 + c3 + "\nfloat: " + f + "\ndouble: " + d + "\nsmart= " + b1 + "\ndumb= " + b2);
+            Console.WriteLine("\nstring\\\t\\normal\n" + @"string\\\t\\verbatim\n" + "\n" + "normal:\u003A\u005E\u0029\n" + @"verbatim:\u003A\u005E\u0029");
             Console.ReadKey();
         }
     }
